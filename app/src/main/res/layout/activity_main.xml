@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2F3FE"
+    android:background="@drawable/login_bg"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="800dp"
-        android:backgroundTint="#6F58FC"
+        android:backgroundTint="#1a052c"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="-2dp"
         tools:ignore="MissingConstraints">
