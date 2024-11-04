@@ -42,7 +42,6 @@ class Event : AppCompatActivity() {
             override fun onResponse(p0: Call<EventData>, p1: Response<EventData>) {
 
                 if(p1.isSuccessful) {
-                    Toast.makeText(this@Event, "Success", Toast.LENGTH_SHORT).show()
                     val data = p1.body()!!
                     for (i in data) {
 

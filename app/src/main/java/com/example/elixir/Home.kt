@@ -36,14 +36,15 @@ class Home : AppCompatActivity() {
             openUrl("https://discord.com/invite/YN9ZGjXdXK")
         }
 
-        dialog = Dialog(this)
-        dialog.setContentView(R.layout.reach_us)
-
-        var reachUsSend = dialog.findViewById<Button>(R.id.reach_us_send)
-        var reachUsName = dialog.findViewById<EditText>(R.id.reach_us_name)
-        var reachUsEmail = dialog.findViewById<EditText>(R.id.reach_us_email)
+//        dialog = Dialog(this)
+//        dialog.setContentView(R.layout.reach_us)
+//
+//        var reachUsSend = dialog.findViewById<Button>(R.id.reach_us_send)
+//        var reachUsName = dialog.findViewById<EditText>(R.id.reach_us_name)
+//        var reachUsEmail = dialog.findViewById<EditText>(R.id.reach_us_email)
 
         binding.reachUs.setOnClickListener {
+            openUrl("https://www.elixircommunity.in/mentors")
 
         }
     }
