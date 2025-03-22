@@ -9,10 +9,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.elixir" />
+                  <option name="mobileSdkAppId" value="1:109144840166:android:6d6ca3cd19c9ecf7f2e827" />
+                  <option name="projectId" value="elixir-bccf4" />
+                  <option name="projectNumber" value="109144840166" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
